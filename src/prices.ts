@@ -22,12 +22,14 @@ export async function getCurrentPrices(ids: string[]) {
 
 export async function getPrice24hAgo(id: string) {
   if (mem24[id] && (Date.now() - mem24[id].at) < 5*60_000) return mem24[id].usd;
-  const url = `/coins/${encodeURIComponent(id)}/market_chart?vs_currency=usd&days=1&interval=minute`;
+  // Removed &interval=minute (invalid). Let CG decide granularity for 1 day.
+  const url = `/coins/${encodeURIComponent(id)}/market_chart?vs_currency=usd&days=1`;
   const { data } = await http.get(url);
-  const prices: [number, number][] = data.prices;
-  const first = prices?.[0]?.[1];
-  const last  = prices?.[prices.length-1]?.[1];
-  const p24 = typeof first === 'number' ? first : last;
+  const prices: [number, number][] = data?.prices || [];
+  // Take the earliest point as ~24h ago; if missing, fall back to the last point.
+  const first = prices.length ? prices[0][1] : 0;
+  const last  = prices.length ? prices[prices.length - 1][1] : first;
+  const p24 = typeof first === 'number' && first > 0 ? first : last;
   mem24[id] = { usd: p24, at: Date.now() };
   return p24;
 }
