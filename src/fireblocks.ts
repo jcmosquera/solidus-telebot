@@ -75,6 +75,8 @@ export function makeFireblocksClient(prefix: '' | '2' = '') {
 
   return {
     enabled,
+
+    // GET /v1/vault/accounts/{id}
     async getVaultAccount(vaultAccountId: string) {
       const path = `/v1/vault/accounts/${vaultAccountId}`;
       const token = await signJwt(prefix, path, 'GET');
@@ -82,6 +84,18 @@ export function makeFireblocksClient(prefix: '' | '2' = '') {
         headers: { 'X-API-Key': apiKey, Authorization: `Bearer ${token}` },
       });
       return data; // includes .assets[]
+    },
+
+    // GET /v1/vault/accounts_paged?limit=...&next=...
+    async listVaultAccounts(limit = 200, next?: string) {
+      const qs = new URLSearchParams({ limit: String(limit) });
+      if (next) qs.set('next', next);
+      const path = `/v1/vault/accounts_paged?${qs.toString()}`;
+      const token = await signJwt(prefix, path, 'GET');
+      const { data } = await http.get(path, {
+        headers: { 'X-API-Key': apiKey, Authorization: `Bearer ${token}` },
+      });
+      return data as { accounts: any[]; next?: string }; // returns { accounts, next? }
     },
   };
 }
