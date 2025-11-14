@@ -1,0 +1,73 @@
+category_id,category
+df27db90-f1c0-45fb-9407-f3fb3a81b7b5,Activist Fundraising
+00000000-0000-4000-8000-100000000001,Mine
+00000000-0000-4000-8000-300000000001,Pending
+00000000-0000-4000-8000-400000000001,Shielded
+ed6c10b0-0d59-4b89-8127-9e4e587cabac,Hosting
+aa5c604c-8ba9-4d6a-adf1-14c211929299,High Transaction Fee
+9a587a8f-1b26-4f09-b7b4-fdecee2d678b,Ponzi Scheme
+e4df5353-6f13-4bde-80dd-9c8bcf31a1e0,Token Sale
+b1488950-6c5c-4a39-b598-563c74cd832a,Mixer
+50cd2957-f961-40c0-88b0-7d929e790019,Bitcoin Faucet
+bc83acf0-e960-44f9-8399-290de3189276,ATM
+09936751-f3b0-463a-ace4-a39b5f2ecd90,Crypto-Exchange
+9ae49a14-30d4-4471-bbe8-35913733d53c,Gambling
+6033e031-6c3a-4b1d-9389-e7f4d1986b9e,De-Fi
+f0336a75-aa56-4097-bec8-f95e6048bb32,Dark Service
+9d427f49-ee3f-4cf1-8651-e4dedd655c56,Extortion
+455570ed-8d6f-4867-89fb-59607e831922,Criminal Organisation
+3af64ba7-a811-40e7-8a21-c51ce722c158,Hardware Wallet
+4954069d-2c0f-4b54-819a-1253d553039b,News
+8ee8b034-3843-4a49-b592-daff8de3c1c6,Dark Vendor Shop
+0bdd0908-02c2-4bbc-9149-eebd62d34e1b,Malware
+4ae6cdee-9f2a-4b9f-be80-a26657331662,Child Sexual Abuse Material Vendor
+b10bc31c-275a-4eaa-90fa-4c7fdebb0639,Ransomware
+0eebb2d3-c92b-49c1-96b3-66a6559dba92,Dark Forum
+ce07eee4-fcea-473c-ab03-f7d904fd7d0c,Law Enforcement
+77be54f5-b449-4b86-9d1f-9835864be938,Terrorist Organisation
+22f70278-2278-405b-8e91-28cc69c7ebb7,Broker
+2c314b19-6290-491b-8669-8bea70f1f5f4,Entertainment
+abb8b249-b05f-43db-a5e9-424b6504f432,Known Criminal
+6d006165-81ff-4657-bae0-8d0f2ffa6543,Token
+09bcf9aa-79fb-4dda-b1ab-21f72fb7c73f,Thief
+9cd55add-e341-4418-9634-f73826024a0d,Miner
+8d39eacf-a5c0-4b38-a101-6b3120b84bf9,OFAC Sanctioned Entity
+1da20c7a-f4f1-468a-be8a-740f52bea6d1,Merchant
+acf97142-b037-4875-91f1-d8f4a71c847a,Credit Card Data Vendor
+89db0901-5954-4e33-993c-469423a8bdef,Software Wallet
+260e78e3-e61f-4341-a7c7-a45c1b3ea0eb,Forum
+66007342-6b93-4618-8105-0f5edb1bb84c,Dark Market - Centralised
+7e759e4b-71b9-4c45-ad6c-baeb25c791c6,Decentralised Exchange
+981ae1eb-e657-4f75-a346-c104a34b7cdc,Peer-to-Peer Exchange
+14caf140-f182-47b4-b164-28eaafe65e74,VPN Vendor
+2569a6ff-22e3-42f4-b55d-3b2c3353e363,Trading Platform
+916caa6a-91bb-4ab3-9cf5-6212b296525e,Validator
+4e57025d-07b5-4a0f-ba46-4c396054f4e8,Research Chemicals
+9ae13d05-ad6a-4c47-8478-1f92e5222dfd,Microtransactions Service
+bd2defe5-06f7-450a-91db-3753023c61a7,Charity
+dd95b95a-95eb-4e94-8ca5-aeb15fb9270f,Software Development
+467c9a09-945a-422d-a076-eccdf6b2df9d,Misc Service
+ce5ff675-75b9-4876-bced-27248eb96ec4,Scam
+6ea09055-3ade-4c45-bd05-eece4632753e,Reported Loss
+4152313d-f640-4b7f-b011-9794f26303e8,Phishing
+0a52f7a2-5da8-4256-b230-df0da6f8449b,Exchange
+17f1713e-120a-4c73-a414-93ffe11ce608,Marijuana Vendor Shop
+e3416581-a8e3-4a01-b978-e59e4ea17997,Outsourcing Provider
+b871e62c-1371-48b9-bbd9-fb71a6c4c828,Authentication
+fc528a5b-cbbc-484a-889d-1ee50481da8d,Escrow
+5a880a14-7ed7-4a30-91a8-f06d214e23f0,Financial Services
+cae6b6bb-209e-4f50-81e2-31868c47ee3d,Investment Syndicate
+8f85c221-929c-407c-a614-2aeba79cbe06,Political Campaign
+6d3a88e9-c9f5-41f4-ab24-831f7f6ec305,Dark Market - Decentralised
+54f55bfe-f5ac-4360-9836-c5c9f1866d49,Payment Services Provider
+ff85b715-884e-48dd-8f7a-db192f8d703e,Coin Swap Service
+c944fb43-d9f0-48c3-a880-13dae7a5668d,Privacy Wallet
+15e93707-e533-4017-946a-2ec49b5e6267,User
+00000000-0000-4000-8000-500000000001,Unknown
+91270a14-1c8e-4743-8ec2-e5c2c7780ca4,Bridge
+69b5b2e3-e0a7-47ee-81ff-c6d8b9027abc,Venture Capital
+3eec9d2d-2b50-4c5d-842e-aff06ecac41a,NFT Marketplace
+c5438c4e-a3f1-4f24-a034-a64a18ca6669,Layer 2
+66161277-140d-4eab-be10-1a8d637d7c5d,Blockchain
+c0b6ebc7-1e4c-4018-97fd-fd755cfe33f2,Data
+829c9ace-eaee-4b06-8d9c-713d93b9bf96,FinCEN Primary Money Laundering Concern
