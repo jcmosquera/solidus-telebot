@@ -47,9 +47,9 @@ init_admin()
 
 # Helper Functions
 def get_user_id(update: Update) -> str:
-    """Get user's Telegram ID or username."""
+    """Get user's Telegram ID (always numeric)."""
     user = update.effective_user
-    return user.username if user.username else str(user.id)
+    return str(user.id)
 
 def is_authorized(telegram_id: str) -> bool:
     """Check if user is authorized."""
